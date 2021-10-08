@@ -1,0 +1,312 @@
+shell program
+
+exam@debian:~/FISAT$ bash area.sh
+Enter the two integers:
+3
+4
+Menu
+1.Area of the rectangle
+2.Area of the triangle
+3.Area of the circle
+enter a choice
+1
+area of the rectangle is:12
+exam@debian:~/FISAT$ bash area.sh
+Enter the two integers:
+3
+5
+Menu
+1.Area of the rectangle
+2.Area of the triangle
+3.Area of the circle
+enter a choice
+2
+area of the triangle is:7
+exam@debian:~/FISAT$ bash area.sh
+Enter the two integers:
+2
+3
+Menu
+1.Area of the rectangle
+2.Area of the triangle
+3.Area of the circle
+enter a choice
+3
+area of the circle is:12
+
+
+question1
+
+
+exam@debian:~$ mkdir FISAT
+exam@debian:~$ cd FISAT
+exam@debian:~/FISAT$ mkdir DAY1
+exam@debian:~/FISAT$ cd DAY1
+exam@debian:~/FISAT/DAY1$ cat >f1.txt
+I love my college
+exam@debian:~/FISAT/DAY1$ cat >f2.txt
+Fisat is my college
+exam@debian:~/FISAT/DAY1$ cat >f3.txt
+my department is computer application
+exam@debian:~/FISAT/DAY1$ cd
+exam@debian:~$ cd FISAT
+exam@debian:~/FISAT$ mkdir DAY2
+exam@debian:~/FISAT$ cd DAY2
+exam@debian:~/FISAT/DAY2$ cat >m1.txt
+kochi
+kozhikode
+kasargod
+exam@debian:~/FISAT/DAY2$ cat >m2.txt
+neema
+aleena
+exam@debian:~/FISAT/DAY2$ cd
+exam@debian:~$ cd FISAT
+exam@debian:~/FISAT$ mkdir DAY3
+exam@debian:~/FISAT$ cd DAY3
+exam@debian:~/FISAT/DAY3$ cat >c1.txt
+India is my country
+exam@debian:~/FISAT/DAY3$ cat >c2.txt
+All Indians are my brothers and sisters
+exam@debian:~/FISAT/DAY3$ cd
+exam@debian:~$ cd FISAT
+
+question 4
+
+exam@debian:~/FISAT$ ps
+    PID TTY          TIME CMD
+   5952 pts/0    00:00:00 bash
+   6338 pts/0    00:00:00 ps
+exam@debian:~/FISAT$ ps -aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 164124 10588 ?        Ss   09:34   0:01 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    09:34   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   09:34   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   09:34   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/0:0H
+root           9  0.0  0.0      0     0 ?        I<   09:34   0:00 [mm_percpu_wq
+root          10  0.0  0.0      0     0 ?        S    09:34   0:00 [rcu_tasks_ru
+root          11  0.0  0.0      0     0 ?        S    09:34   0:00 [rcu_tasks_tr
+root          12  0.0  0.0      0     0 ?        S    09:34   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    09:34   0:01 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    09:34   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    09:34   0:00 [cpuhp/0]
+root          16  0.0  0.0      0     0 ?        S    09:34   0:00 [cpuhp/1]
+root          17  0.0  0.0      0     0 ?        S    09:34   0:00 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    09:34   0:00 [ksoftirqd/1]
+root          20  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/1:0H
+root          21  0.0  0.0      0     0 ?        S    09:34   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    09:34   0:00 [migration/2]
+root          23  0.0  0.0      0     0 ?        S    09:34   0:00 [ksoftirqd/2]
+root          25  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/2:0H
+root          26  0.0  0.0      0     0 ?        S    09:34   0:00 [cpuhp/3]
+root          27  0.0  0.0      0     0 ?        S    09:34   0:00 [migration/3]
+root          28  0.0  0.0      0     0 ?        S    09:34   0:00 [ksoftirqd/3]
+root          30  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/3:0H
+root          34  0.0  0.0      0     0 ?        S    09:34   0:00 [kdevtmpfs]
+root          35  0.0  0.0      0     0 ?        I<   09:34   0:00 [netns]
+root          36  0.0  0.0      0     0 ?        S    09:34   0:00 [kauditd]
+root          39  0.0  0.0      0     0 ?        S    09:34   0:00 [khungtaskd]
+root          40  0.0  0.0      0     0 ?        S    09:34   0:00 [oom_reaper]
+root          41  0.0  0.0      0     0 ?        I<   09:34   0:00 [writeback]
+root          42  0.0  0.0      0     0 ?        S    09:34   0:00 [kcompactd0]
+root          43  0.0  0.0      0     0 ?        SN   09:34   0:00 [ksmd]
+root          44  0.0  0.0      0     0 ?        SN   09:34   0:00 [khugepaged]
+root          62  0.0  0.0      0     0 ?        I<   09:34   0:00 [kintegrityd]
+root          63  0.0  0.0      0     0 ?        I<   09:34   0:00 [kblockd]
+root          64  0.0  0.0      0     0 ?        I<   09:34   0:00 [blkcg_punt_b
+root          65  0.0  0.0      0     0 ?        I<   09:34   0:00 [edac-poller]
+root          66  0.0  0.0      0     0 ?        I<   09:34   0:00 [devfreq_wq]
+root          67  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/1:1H
+root          68  0.0  0.0      0     0 ?        S    09:34   0:00 [kswapd0]
+root          69  0.0  0.0      0     0 ?        I<   09:34   0:00 [kthrotld]
+root          70  0.0  0.0      0     0 ?        I<   09:34   0:00 [acpi_thermal
+root          74  0.0  0.0      0     0 ?        I<   09:34   0:00 [ipv6_addrcon
+root          77  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/2:1H
+root          85  0.0  0.0      0     0 ?        I<   09:34   0:00 [kstrp]
+root          88  0.0  0.0      0     0 ?        I<   09:34   0:00 [zswap-shrink
+root          89  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/u9:0
+root         133  0.0  0.0      0     0 ?        I<   09:34   0:00 [kworker/0:1H
+root         139  0.0  0.0      0     0 ?        I<   09:34   0:00 [ata_sff]
+root         141  0.0  0.0      0     0 ?        S    09:34   0:00 [card0-crtc0]
+root         142  0.0  0.0      0     0 ?        S    09:34   0:00 [card0-crtc1]
+root         144  0.0  0.0      0     0 ?        S    09:34   0:00 [scsi_eh_0]
+root         145  0.0  0.0      0     0 ?        I<   09:34   0:00 [scsi_tmf_0]
+root         146  0.0  0.0      0     0 ?        S    09:34   0:00 [scsi_eh_1]
+root         147  0.0  0.0      0     0 ?        I<   09:34   0:00 [scsi_tmf_1]
+root         148  0.0  0.0      0     0 ?        I    09:34   0:00 [kworker/u8:3
+root         149  0.0  0.0      0     0 ?        S    09:34   0:00 [scsi_eh_2]
+root         150  0.0  0.0      0     0 ?        I<   09:34   0:00 [scsi_tmf_2]
+root         151  0.0  0.0      0     0 ?        S    09:34   0:00 [scsi_eh_3]
+root         152  0.0  0.0      0     0 ?        I<   09:34   0:00 [scsi_tmf_3]
+root         157  0.0  0.0      0     0 ?        I<   09:34   0:01 [kworker/3:1H
+root         194  0.0  0.0      0     0 ?        S    09:34   0:00 [jbd2/sda7-8]
+root         195  0.0  0.0      0     0 ?        I<   09:34   0:00 [ext4-rsv-con
+root         236  0.0  0.8  75188 34984 ?        Ss   09:34   0:00 /lib/systemd/
+root         264  0.0  0.1  24316  7504 ?        Ss   09:34   0:00 /lib/systemd/
+root         331  0.0  0.0      0     0 ?        S    09:34   0:00 [watchdogd]
+root         338  0.0  0.0      0     0 ?        S    09:34   0:00 [irq/29-mei_m
+root         397  0.0  0.0      0     0 ?        I<   09:34   0:00 [cryptd]
+systemd+     460  0.0  0.1  88508  6028 ?        Ssl  09:34   0:00 /lib/systemd/
+root         462  0.0  0.1 236392  7396 ?        Ssl  09:34   0:00 /usr/libexec/
+avahi        465  0.3  0.1   9708  6220 ?        Ss   09:34   0:07 avahi-daemon:
+root         466  0.0  0.0   6684  2840 ?        Ss   09:34   0:00 /usr/sbin/cro
+message+     467  0.0  0.1   9876  6108 ?        Ss   09:34   0:02 /usr/bin/dbus
+root         468  2.8  0.4 254368 18720 ?        Ssl  09:34   1:05 /usr/sbin/Net
+root         470  0.1  0.2 236024 10028 ?        Ssl  09:34   0:03 /usr/libexec/
+root         471  0.0  0.1 220740  6204 ?        Ssl  09:34   0:00 /usr/sbin/rsy
+root         472  0.0  0.2 232780  8032 ?        Ssl  09:34   0:00 /usr/libexec/
+root         473  0.0  0.1 439916  7316 ?        Ss   09:34   0:00 /lib/systemd/
+root         474  0.0  0.3 393852 13304 ?        Ssl  09:34   0:00 /usr/libexec/
+root         476  0.0  0.1  14560  5148 ?        Ss   09:34   0:00 /sbin/wpa_sup
+avahi        490  0.0  0.0   7092   348 ?        S    09:34   0:00 avahi-daemon:
+root         554  0.0  0.2 240980 10660 ?        Ssl  09:34   0:00 /usr/sbin/Mod
+mongodb      559  0.2  3.1 1493752 124952 ?      Ssl  09:34   0:05 /usr/bin/mong
+root         562  0.0  0.5 118720 23460 ?        Ssl  09:34   0:00 /usr/bin/pyth
+root         593  0.0  0.3 239628 12564 ?        Ssl  09:34   0:00 /usr/sbin/gdm
+mysql        654  0.0  2.6 1410704 103184 ?      Ssl  09:34   0:00 /usr/sbin/mar
+postgres     725  0.0  0.7 213236 28224 ?        Ss   09:34   0:00 /usr/lib/post
+root         731  0.0  0.5 200388 20992 ?        Ss   09:34   0:00 /usr/sbin/apa
+www-data     743  0.0  0.4 203092 17904 ?        S    09:34   0:00 /usr/sbin/apa
+www-data     744  0.0  0.4 203092 17832 ?        S    09:34   0:00 /usr/sbin/apa
+www-data     745  0.0  0.4 203044 17068 ?        S    09:34   0:00 /usr/sbin/apa
+www-data     746  0.0  0.4 203044 17144 ?        S    09:34   0:00 /usr/sbin/apa
+www-data     747  0.0  0.4 203044 17028 ?        S    09:34   0:00 /usr/sbin/apa
+postgres     779  0.0  0.1 213336  6300 ?        Ss   09:34   0:00 postgres: 13/
+postgres     780  0.0  0.1 213236  5808 ?        Ss   09:34   0:00 postgres: 13/
+postgres     781  0.0  0.2 213236 10040 ?        Ss   09:34   0:00 postgres: 13/
+postgres     782  0.0  0.2 213772  8524 ?        Ss   09:34   0:00 postgres: 13/
+postgres     783  0.0  0.1  67592  4908 ?        Ss   09:34   0:00 postgres: 13/
+postgres     784  0.0  0.1 213792  6728 ?        Ss   09:34   0:00 postgres: 13/
+rtkit        799  0.0  0.0 153692  3024 ?        SNsl 09:34   0:00 /usr/libexec/
+root         802  0.0  0.0      0     0 ?        I    09:34   0:00 [kworker/u8:5
+Debian-+    1075  0.0  0.1  18672  4516 ?        Ss   09:34   0:00 /usr/sbin/exi
+root        1257  0.0  0.2 247012  8496 ?        Ssl  09:35   0:00 /usr/libexec/
+root        1356  1.0  1.3 438092 54056 ?        Ssl  09:35   0:22 /usr/libexec/
+root        1476  0.0  0.0      0     0 ?        I<   09:35   0:00 [kworker/u9:1
+colord      1493  0.0  0.3 316760 13576 ?        Ssl  09:35   0:00 /usr/libexec/
+root        1567  0.0  0.0      0     0 ?        I    09:35   0:00 [kworker/0:4-
+root        2162  0.0  0.6 378832 27248 ?        Ssl  09:39   0:00 /usr/libexec/
+www-data    3509  0.0  0.4 203044 17196 ?        S    09:44   0:00 /usr/sbin/apa
+root        3831  0.0  0.0      0     0 ?        I    09:49   0:00 [kworker/3:3-
+root        3837  0.0  0.0      0     0 ?        I    09:49   0:00 [kworker/u8:0
+root        3892  0.0  0.0   5784  1628 tty2     Ss+  09:49   0:00 /sbin/agetty 
+root        4257  0.0  0.0      0     0 ?        I    09:50   0:00 [kworker/1:3-
+root        4261  0.0  0.2 314088 10364 ?        Sl   09:50   0:00 gdm-session-w
+exam        4266  0.0  0.2  15768  9340 ?        Ss   09:50   0:00 /lib/systemd/
+exam        4267  0.0  0.0 167128  3028 ?        S    09:50   0:00 (sd-pam)
+exam        4286  0.0  0.1  90576  5744 ?        S<sl 09:50   0:00 /usr/bin/pipe
+exam        4287  0.0  0.6 1156300 27244 ?       S<sl 09:50   0:00 /usr/bin/puls
+exam        4289  0.0  0.6 509380 25040 ?        SNsl 09:50   0:00 /usr/libexec/
+exam        4292  0.0  0.1   9456  5780 ?        Ss   09:50   0:00 /usr/bin/dbus
+exam        4298  0.0  0.1 237360  6404 ?        Sl   09:50   0:00 /usr/bin/gnom
+exam        4313  0.0  0.1  85300  6512 ?        S<l  09:50   0:00 /usr/bin/pipe
+exam        4314  0.0  0.1 236904  7632 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4319  0.0  0.2 379924  8032 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4328  0.0  0.3 349052 14092 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4333  0.0  0.1 232872  6020 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4337  0.0  0.1 311556  7620 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4342  0.0  0.1 235244  6240 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4346  0.0  0.2 233064  8084 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4350  0.0  1.0 552760 42664 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4359  0.0  0.2 311788  8728 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4368  0.0  0.1 158836  5612 tty3     Ssl+ 09:50   0:00 /usr/libexec/
+exam        4371  0.0  0.4 297996 15952 tty3     Sl+  09:50   0:00 /usr/libexec/
+exam        4420  0.0  0.1  88176  4352 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4421  0.0  0.0   5964  3856 ?        Ss   09:50   0:00 ssh-agent -D 
+exam        4425  0.0  0.4 724532 19436 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4442  0.0  0.1 307284  6324 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4443  0.4  4.4 4634092 172524 ?      Ssl  09:50   0:06 /usr/bin/gnom
+exam        4455  0.0  0.1   8172  4436 ?        S    09:50   0:00 /usr/bin/dbus
+exam        4475  0.0  1.6 1364168 63212 ?       Sl   09:50   0:00 /usr/bin/Xway
+exam        4495  0.0  0.1 232788  4548 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4497  0.0  0.5 580928 21892 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4506  0.0  0.6 392820 25228 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4513  0.0  0.8 849216 31924 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4517  0.0  0.1 156012  5448 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4526  0.0  0.7 668124 30452 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4540  0.0  0.7 2661784 27720 ?       Sl   09:50   0:00 /usr/bin/gjs 
+exam        4542  0.0  0.1 165668  7000 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4551  0.0  0.2 306852  8372 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4552  0.0  0.6 461916 26944 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4553  0.0  0.4 376132 18264 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4556  0.0  0.1 308860  7064 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4560  0.0  0.6 341988 24152 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4561  0.0  0.6 644344 27136 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4562  0.0  0.7 376492 27704 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4563  0.0  0.2 320192 10740 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4565  0.0  0.1 454268  5920 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4570  0.0  0.1 232700  5760 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4573  0.0  0.3 462192 11888 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4577  0.0  0.3 459984 12200 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4580  0.0  1.7 659120 70160 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4581  0.0  0.2 319496 11696 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4582  0.0  0.3 455828 13196 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4583  0.0  0.5 342324 22296 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4597  1.0  2.3 1127412 90196 ?       Sl   09:50   0:13 /usr/bin/gnom
+exam        4612  0.0  0.1 231792  7824 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4647  0.0  0.3 344808 15232 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4722  0.0  0.2 384784 11212 ?        Sl   09:50   0:00 ibus-daemon -
+exam        4724  0.0  0.8 661804 33168 ?        Ssl  09:50   0:00 /usr/libexec/
+exam        4733  0.0  0.1 233724  7008 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4739  0.0  0.7 345916 28428 ?        Sl   09:50   0:01 /usr/libexec/
+exam        4745  0.0  0.5 193672 22896 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4751  0.0  0.1 233576  7056 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4779  0.0  0.1 159900  6968 ?        Sl   09:50   0:00 /usr/libexec/
+exam        4783  0.0  0.1 159332  6232 ?        Ssl  09:50   0:00 /usr/libexec/
+root        5502  0.0  0.0      0     0 ?        I    09:56   0:00 [kworker/u8:1
+root        5618  0.0  0.0      0     0 ?        I    09:59   0:00 [kworker/u8:2
+root        5635  0.0  0.0      0     0 ?        I    10:00   0:00 [kworker/2:1-
+root        5735  0.0  0.0      0     0 ?        I    10:03   0:00 [kworker/1:0-
+root        5740  0.0  0.0      0     0 ?        I    10:03   0:00 [kworker/3:0-
+exam        5793  0.0  1.5 862664 59032 ?        Sl   10:03   0:00 /usr/bin/gnom
+exam        5799  0.0  0.9 610628 38064 ?        SLl  10:03   0:00 /usr/bin/seah
+exam        5818  0.1  1.1 400716 45648 ?        Ssl  10:03   0:00 /usr/libexec/
+exam        5858  0.0  0.1 310880  7668 ?        Sl   10:03   0:00 /usr/libexec/
+exam        5941  0.0  0.2 310640  9192 ?        Sl   10:03   0:00 /usr/libexec/
+exam        5952  0.0  0.1   8116  4808 pts/0    Ss   10:04   0:00 bash
+root        6020  0.0  0.0      0     0 ?        I    10:05   0:00 [kworker/0:0-
+root        6093  0.0  0.0      0     0 ?        I    10:07   0:00 [kworker/2:0-
+root        6211  0.0  0.0      0     0 ?        I    10:09   0:00 [kworker/1:1-
+root        6251  0.0  0.0      0     0 ?        I    10:10   0:00 [kworker/3:1-
+exam        6340  0.0  0.0   9884  3412 pts/0    R+   10:12   0:00 ps -aux
+
+Question 5
+
+exam@debian:~/FISAT$ pwd
+/home/exam/FISAT
+
+Question 3
+
+exam@debian:~/FISAT$ cd DAY1
+exam@debian:~/FISAT/DAY1$ ls -l f1.txt
+-rwxr-xr-x 1 exam exam 18 Oct  8 10:06 f1.txt
+exam@debian:~/FISAT/DAY1$ chmod g-wx f1.txt
+exam@debian:~/FISAT/DAY1$ ls
+f1.txt  f2.txt  f3.txt
+exam@debian:~/FISAT/DAY1$ ls -i f1.txt
+3149974 f1.txt
+ 
+
+question 2
+
+exam@debian:~/FISAT$ cp -r DAY2/m2.txt DAY3/c3.txt
+exam@debian:~/FISAT$ cd DAY3
+exam@debian:~/FISAT/DAY3$ ls
+c1.txt  c2.txt  c3.txt
+
+question 1
+
+exam@debian:~/FISAT/DAY3$ ls
+c1.txt  c2.txt  c3.txt  m3.txt
+exam@debian:~/FISAT/DAY3$ cat c3.txt
+kochi
+kozhikode
+kasargod
+neema
+aleena
+
+
+
+
+
+
